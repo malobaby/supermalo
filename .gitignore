@@ -21,6 +21,18 @@ Thumbs.db
 # Node
 node_modules/
 
+# Test coverage
+coverage/
+
+# Claude Code (project-local config & sessions)
+.claude/
+
+# Logs
+*.log
+
+# npm cache
+.npm/
+
 # Personal configs (if any)
 personal/
 private/
