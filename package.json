@@ -1,0 +1,49 @@
+{
+  "name": "supermalo",
+  "version": "0.1.0",
+  "description": "Supermalo - Claude Code 能力增强，开箱即用",
+  "main": "src/index.js",
+  "bin": {
+    "supermalo": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "ai",
+    "agents",
+    "workflow",
+    "productivity"
+  ],
+  "author": "malobaby",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malobaby/supermalo"
+  },
+  "files": [
+    "bin",
+    "src",
+    "assets"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.23",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "@vitest/coverage-v8": "^1.6.0"
+  }
+}

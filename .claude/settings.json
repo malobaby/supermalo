@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(Get-ChildItem -Name -File)",
+      "Bash(npm pack *)"
+    ],
+    "additionalDirectories": [
+      "d:\\su_workspace\\cursor\\zzz_vibe\\supermalo\\examples"
+    ]
+  }
+}

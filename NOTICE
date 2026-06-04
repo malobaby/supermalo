@@ -1,0 +1,15 @@
+# NOTICE
+
+Supermalo is derived from the following open source projects:
+
+## ai-max (MIT)
+- Repository: https://github.com/zhukunpenglinyutong/ai-max
+- Copyright (c) 2026 朱昆鹏
+- Provided the npm CLI installer, Chinese command system, and out-of-the-box component structure.
+
+## everything-claude-code (MIT)
+- Repository: https://github.com/affaan-m/everything-claude-code
+- Copyright (c) 2026 everything-claude-code
+- Provided the original agents, skills, hooks methodology and initial patterns.
+
+Supermalo is an independent fork and is not affiliated with the upstream projects.
